@@ -90,6 +90,10 @@ stateDiagram-v2
 ## 🚀 快速開始
 
 ### 1. 安裝環境需求
+clone專案
+```bash
+git clone https://github.com/hyt-0000/TOC_finai_project.git
+```
 請確保您的 Python 環境已安裝以下必要套件：
 ```bash
 pip install streamlit requests pandas plotly yfinance twstock gspread oauth2client
