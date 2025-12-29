@@ -148,7 +148,7 @@ streamlit run main.py
 
 ## ⚠️ 注意事項
 
-- 請確保 `main.py` 中的 `LLM_API_KEY` 為有效狀態，才能正常使用 AI 功能。
+- 請確保 `main.py` 中的 `LLM_API_KEY` 要改成自己的api key，才能正常使用 AI 功能。
 
 - 若執行時出現 `gspread` 相關錯誤，請確認：
   - `credentials.json` 是否存在於專案根目錄
