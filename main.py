@@ -9,7 +9,7 @@ import ai_advisor
 # ==========================================
 # 設定區
 # ==========================================
-LLM_API_KEY = "d042ab7ee67c0b989b9bd6f1cdc84966967fc0f51d727df0199f736cdb041f15" 
+LLM_API_KEY = "your_api_key" 
 
 # ==========================================
 # 介面設定
@@ -231,4 +231,5 @@ if user_input:
         "content": response_text, 
         "chart_data": chart_data,
         "chart_type": chart_type
+
     })
