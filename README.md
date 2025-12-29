@@ -103,15 +103,15 @@ pip install lxml
 ## 2. Google Sheets API 設定
 
 1. 前往 **Google Cloud Console** 建立一個「服務帳號（Service Account）」。
-    1.進入 Google Cloud Console
-    2.點擊左側選單的 「IAM 與管理」(IAM & Admin) > 「服務帳戶」(Service Accounts)
-    3.點擊上方的 「+ 建立服務帳戶」(CREATE SERVICE ACCOUNT)
-    4.輸入名稱（例如 sheets-operator），點擊「建立並繼續」 
+    1. 進入 Google Cloud Console
+    2. 點擊左側選單的 「IAM 與管理」(IAM & Admin) > 「服務帳戶」(Service Accounts)
+    3. 點擊上方的 「+ 建立服務帳戶」(CREATE SERVICE ACCOUNT)
+    4. 輸入名稱（例如 sheets-operator），點擊「建立並繼續」 
 2. 為服務帳號建立金鑰並下載 **JSON 金鑰檔案**。
-    1.在服務帳戶列表中，點擊你剛才建立的那一個帳戶
-    2.切換到上方的 「金鑰」(Keys) 標籤頁
-    3.點擊 「新增金鑰」(ADD KEY) > 「建立新金鑰」(Create new key)
-    4.選擇 「JSON」 格式，然後點擊 「建立」 
+    1. 在服務帳戶列表中，點擊你剛才建立的那一個帳戶
+    2. 切換到上方的 「金鑰」(Keys) 標籤頁
+    3. 點擊 「新增金鑰」(ADD KEY) > 「建立新金鑰」(Create new key)
+    4. 選擇 「JSON」 格式，然後點擊 「建立」 
 3. 將金鑰檔案命名為 `credentials.json`，並放置於專案根目錄。
 4. 在 **Google Sheets** 建立一份試算表，名稱為 **`MyFinanceBook`**，並開共用給服務帳號的 email(`credentials.json`裡的`client_email`)。
 5. 建立以下分頁（Sheets）：
