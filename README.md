@@ -93,6 +93,7 @@ stateDiagram-v2
 clone專案
 ```bash
 git clone https://github.com/hyt-0000/TOC_finai_project.git
+cd TOC_finai_project
 ```
 請確保您的 Python 環境已安裝以下必要套件：
 ```bash
